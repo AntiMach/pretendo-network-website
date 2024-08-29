@@ -120,17 +120,8 @@ You may have thought to yourself; _"2nd local account? What's that? I thought th
 3. Download [Simple Badge Injector](https://github.com/AntiMach/simple-badge-injector/releases/latest).
 4. Insert your SD Card into your console.
 5. Use Nimbus to switch to Pretendo.
-6. Open Simple Badge Injector and make a note of the "Nintendo Network ID" value.
-7. Still inside SBI, choose the option to dump your badge data files.
-8. Turn off your 3DS and remove the SD card. Insert your SD card into your PC.
-9. Download and open [Advanced Badge Editor](https://github.com/AntiMach/advanced-badge-editor/releases/latest).
-10. Go to `File > Open Data`, then choose the folder where BadgeData.dat and BadgeMngFile.dat are. (Located at `sd:/3ds/SimpleBadgeInjector/Dumped`)
-11. Replace the NNID value with the one you made a note of in SBI earlier.
-12. Select `Save As` to save the modified file separately from the backup.
-13. Put your modified badge data filed into `sd:/3ds/SimpleBadgeInjector`
-14. Put your SD card back into your 3DS and go back into SBI
-15. Inject your modified badge data files.
-
-All badges *placed* on the home menu will be deleted, and you have to re-add them in the order you have had them before.
+6. Open Simple Badge Injector.
+7. Choose the option to dump your badge data.
+8. Once that's done, choose the option to fix your NNID/PNID.
     
-If you encounter any errors, restore your backed up badge data through SBI. Injecting badges while using Pretendo Network will make them disappear when swapping back to Nintendo Network, and vice versa.
+If you encounter any errors, you can restore your backed up badge data through SBI. Injecting badges while using Pretendo Network will make them disappear when swapping back to Nintendo Network, and vice versa. Fixing the NNID/PNID will make them reappear where they originally where.
